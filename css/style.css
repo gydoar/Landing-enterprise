@@ -1,0 +1,56 @@
+.logo{
+	padding-top: 20px;
+}
+.contacto{
+	background: #f76928;
+	float: right;
+	max-width: 250px;
+	height: 40px;
+	padding: 10px;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 0px 0px 5px 5px;
+		-webkit-border-radius: 0px 0px 5px 5px;
+			-o-border-radius: 0px 0px 5px 5px;
+				-moz-border-radius: 0px 0px 5px 5px;
+	box-shadow: gray 0px 2px 3px;
+		-webkit-box-shadow: gray 0px 2px 3px;
+			-o-box-shadow: gray 0px 2px 3px;
+				-moz-box-shadow: gray 0px 2px 3px;
+}
+
+.contacto img, .contacto p{
+	display: inline-block;
+	vertical-align: top;
+}
+
+nav{
+	text-align: right;
+	padding-top: 20px;
+}
+nav ul li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #0f3374;
+	font-weight: bold;
+}
+nav ul li a:hover{
+	color: #0f3374;
+}
+
+.banner{
+	background: url();
+	background-position: center center;
+	min-height: 700px;
+	width:100%;
+	background-size: 100%;
+		-webkit-background-size: 100%;
+			-o-background-size: 100%;
+				-moz-background-size: 100%;
+	background-size: cover;
+
+}
