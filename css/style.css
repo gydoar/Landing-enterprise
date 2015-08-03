@@ -28,6 +28,9 @@ nav{
 	text-align: right;
 	padding-top: 20px;
 }
+nav ul{
+	margin-bottom: 0px;
+}
 nav ul li{
 	display: inline-block;
 	padding-left: 10px;
@@ -43,14 +46,69 @@ nav ul li a:hover{
 }
 
 .banner{
-	background: url();
+	border-bottom: 5px solid #e2e4e7;
+	border-top: 5px solid #e2e4e7;
+	background-attachment: relative;
+	background: url(../images/banner.jpg);
 	background-position: center center;
-	min-height: 700px;
+	min-height: 588px;
 	width:100%;
 	background-size: 100%;
 		-webkit-background-size: 100%;
 			-o-background-size: 100%;
 				-moz-background-size: 100%;
 	background-size: cover;
-
+	color: #ffffff;
+}
+.banner p{
+	font-size: 40px;
+	text-align: right;
+	padding-top: 100px;
+	line-height: 50px;
+	word-spacing: 10px;
+}
+.banner p span{
+	font-size: 50px;
+	text-shadow:gray 0px 2px 3px;
+	font-weight: bold;
+}
+.banner p span{
+	background-image: url(../images/icon-aqui.png);
+	background-repeat: no-repeat;
+	background-position-y:-15px;
+	min-height: 93px;
+	background-size: 100%; 
+	background-attachment: relative;
+	max-width: 100%;
+}
+.banner ul{
+	 list-style-image: url(../images/icon-check.png);
+}
+.categorias{
+	background: url(../images/geometry2.jpg);
+	min-height: 500px;
+	width: 100%;
+	padding:20px 0px 20px 0px;
+}
+.categorias h2{
+	color: #0f3374;
+	font-weight: bold;
+	font-size: 26px;
+	letter-spacing: 3px;
+}
+.categorias h2:before{
+	content: url(../images/icon-a.png);
+	position: absolute;
+	top: -55px;
+	left: 25px;
+}
+.categorias h2:first-letter{
+	font-size: 34px;
+}
+.categoria__text{
+	max-width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	color: #918f94;
+	line-height: 20px;
 }
