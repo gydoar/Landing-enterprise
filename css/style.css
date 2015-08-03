@@ -96,7 +96,7 @@ nav ul li a:hover{
 	font-size: 26px;
 	letter-spacing: 3px;
 }
-.categorias h2:before{
+.categorias h2:before {
 	content: url(../images/icon-a.png);
 	position: absolute;
 	top: -55px;
@@ -105,10 +105,62 @@ nav ul li a:hover{
 .categorias h2:first-letter{
 	font-size: 34px;
 }
+.categorias h3{
+	color: #f76928;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
 .categoria__text{
 	max-width: 700px;
 	margin: 0 auto;
 	text-align: center;
 	color: #918f94;
 	line-height: 20px;
+}
+.promocion div:first-child{
+	text-align: right;
+}
+
+.promocion p{
+	padding-top: 0px;
+}
+.promocion p span{
+	background: none;
+	text-shadow:none;
+	font-size: 12px !important;
+}
+.promocion p, .promocion p span{
+	font-size: 20px;
+}
+.promocion p, .promocion img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.sombra{
+	background: rgba(0,0,0,0.6);
+	padding: 10px 10px 0px 10px;
+	border-radius: 5px;
+}
+.buttom{
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	background: #f76928;
+	padding: 10px 50px;
+	color: #ffffff;
+	border-radius: 5px;
+	font-size: 18px;
+	box-shadow: #000000 0px 0.5px 2px;
+		-webkit-box-shadow: #000000 0px 0.5px 2px;
+			-o-box-shadow: #000000 0px 0.5px 2px;
+				-moz-box-shadow: #000000 0px 0.5px 2px;
+
+}
+.buttom:hover{
+	color: rgba(255,255,255,0.8);
+}
+.center{
+	text-align: center;
 }
