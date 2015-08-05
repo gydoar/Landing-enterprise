@@ -96,6 +96,16 @@ nav ul li a:hover{
 	background: #f9f9fa;
 	padding:20px 0px 20px 0px;
 }
+.productos p{
+	color: #918f94;
+}
+.productos h3{
+	text-align: center;
+	color: #f76928;
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 400;
+}
 .categorias h2, .productos h2, .clientes h2{
 	color: #0f3374;
 	font-weight: bold;
@@ -201,12 +211,18 @@ nav ul li a:hover{
 	text-align: center;
 	padding: 60px 0px 20px 0px; 
 	background: url(../images/geometry2.jpg);
-	min-height: 350px;
+	min-height: 250px;
 	width: 100%;
 }
-ul.clientes-list li{
+ul.clientes-list li, ul.icon-pagos li{
 	display: inline-block;
 	list-style: none;
 	padding: 0px 20px;
 	vertical-align: middle;
+}
+ul.icon-pagos{
+	margin-bottom: 0px;
+}
+ul.icon-pagos li{
+	padding: 0px 10px;
 }
