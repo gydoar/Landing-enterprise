@@ -96,11 +96,11 @@ nav ul li a:hover{
 	background: #f9f9fa;
 	padding:20px 0px 20px 0px;
 }
-.categorias h2, .productos h2{
+.categorias h2, .productos h2, .clientes h2{
 	color: #0f3374;
 	font-weight: bold;
 	font-size: 24px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 }
 .categorias h2:before, .productos h2:before {
 	content: url(../images/icon-a.png);
@@ -168,6 +168,11 @@ nav ul li a:hover{
 .buttom:hover{
 	color: rgba(255,255,255,0.8);
 }
+.buttom-2{
+	position: relative;
+	top: 35px;
+}
+
 .center{
 	text-align: center;
 }
@@ -180,4 +185,28 @@ nav ul li a:hover{
 }
 .icon-articulos:before{
 	content: url(../images/icon-articulos.png);
+}
+.flexslider{
+	text-align: center;
+	font-size: 14px;
+}
+.flexslider p{
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.flexslider p span{
+	color: #00367c;
+}
+.clientes{
+	text-align: center;
+	padding: 60px 0px 20px 0px; 
+	background: url(../images/geometry2.jpg);
+	min-height: 350px;
+	width: 100%;
+}
+ul.clientes-list li{
+	display: inline-block;
+	list-style: none;
+	padding: 0px 20px;
+	vertical-align: middle;
 }
