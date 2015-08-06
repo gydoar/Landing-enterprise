@@ -6,10 +6,10 @@ if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
  
-    $email_to = "soporte@suwwweb.com";
+    $email_to = "handresvegarodriguez@gmail.com";
     
 
-    $email_subject = "Un nuevo cliente necesita página web";
+    $email_subject = "Un nuevo cliente necesita promocionales";
  
    
     $first_name = $_POST['nombre']; // required 
@@ -43,7 +43,7 @@ $headers = 'From: '.$email_from."\r\n".
 'X-Mailer: PHP/' . phpversion();
  
 @mail($email_to, $email_subject, $email_message, $headers); 
-header("Location: /gracias.html");
+header("Location: /articulos/gracias.html");
 ?>
  
 <!-- include your own success html here -->

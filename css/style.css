@@ -279,11 +279,27 @@ footer p a{
 		.categorias h2:before, .productos h2:before {
 			display: none;
 		}
+		.banner ul{
+			text-align: center;
+		}
 	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		.categorias h2:before, .productos h2:before {
 			display: none;
+		}
+		ul.icon-pagos{
+			text-align: center;
+		}
+		.banner ul{
+			text-align: center;
+		}
+		.banner p{
+			font-size: 22px;
+		}
+		.banner p span{
+			font-size: 28px;
+			background: none;
 		}
 	}
