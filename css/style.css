@@ -243,6 +243,24 @@ footer p a{
 	color: #ffffff;
 }
 
+.gracias{
+	text-align: center;
+	padding: 40px 0px;
+}
+.gracias p{
+	color: #0f3374;
+	font-weight: bold;
+	font-size: 18px;
+}
+.gracias h6{
+	margin-bottom: 0px;
+	font-style: 16px;
+}
+.gracias a{
+	text-decoration: none;
+	font-weight: bold;
+}
+
 /*------------------------------------*\
     $MEDIA-QUERIES
 \*------------------------------------*/
