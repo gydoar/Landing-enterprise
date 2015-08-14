@@ -264,11 +264,18 @@ footer p a{
 .fancybox-skin{
 	background: #ffffff;
 }
+
+.product div{
+	padding-top: 15px;
+}
+
 .product h3{
-	text-align: center;
 	color: #0F3374;
 	font-size: 20px;
 	font-weight: bold;
+}
+.container-2{
+	padding: 0px 20px;
 }
 /*------------------------------------*\
     $MEDIA-QUERIES
@@ -301,14 +308,22 @@ footer p a{
 		ul.icon-pagos{
 			text-align: center;
 		}
+		.banner{
+			padding-top: 10px;
+		}
 		.banner ul{
 			text-align: center;
 		}
 		.banner p{
 			font-size: 22px;
+			text-align: center;
+			line-height: 30px;
 		}
 		.banner p span{
 			font-size: 28px;
 			background: none;
+		}
+		.promocion, .promocion div:first-child{
+			text-align: center;
 		}
 	}
