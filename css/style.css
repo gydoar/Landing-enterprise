@@ -4,7 +4,7 @@
 .contacto{
 	background: #f76928;
 	float: right;
-	max-width: 250px;
+	max-width: 300px;
 	height: 40px;
 	padding: 10px;
 	color: #ffffff;
@@ -39,7 +39,8 @@ nav ul li{
 nav ul li a{
 	text-decoration: none;
 	color: #0f3374;
-	font-weight: bold;
+	font-weight: 400;
+	font-size: 14px;
 }
 nav ul li a:hover{
 	color: #0f3374;
@@ -66,6 +67,11 @@ nav ul li a:hover{
 	padding-top: 100px;
 	line-height: 50px;
 	word-spacing: 10px;
+
+	font-weight: 400;
+}
+.banner p:first-child{
+	letter-spacing: 3px;
 }
 .banner p span{
 	font-size: 50px;
@@ -157,7 +163,8 @@ nav ul li a:hover{
 }
 .sombra{
 	background: rgba(0,0,0,0.6);
-	padding: 10px 10px 0px 10px;
+	height: 42px;
+	padding: 10px 20px;
 	border-radius: 5px;
 }
 .buttom{
