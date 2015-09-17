@@ -57,8 +57,8 @@
 
        <nav class="twelve columns">
         <ul>
-          <li><a href="#promocionales">PROMOCIONALES</a></li>
-          <li><a href="#productos">PRODUCTOS</a></li>
+          <li><a target="new" href="http://enterprisepromocionales.com.co/promocionales">PROMOCIONALES</a></li>
+          <li><a target="new" href="http://enterprisepromocionales.com.co/promociones">PRODUCTOS</a></li>
           <li><a href="#clientes">CLIENTES</a></li>
           <li><a href="#contacto">CONTACTENOS</a></li>
         </ul>
@@ -356,12 +356,12 @@
         <div class="six columns">
         <h3>¡HAZ TU COTIZACIÓN!</h3>
           <form action="contact.php" method="post">
-            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
             <div class="row">
-              <input class="six columns" type="text" name="email" id="email" placeholder="Email">
-              <input class="six columns" type="text" name="telefono" id="telefono" placeholder="Teléfono">
+              <input class="six columns" type="text" name="email" id="email" placeholder="Email" required>
+              <input class="six columns" type="text" name="telefono" id="telefono" placeholder="Teléfono" required>
             </div>
-              <textarea name="mensaje" id="mensaje" cols="40" rows="10" placeholder="Mensaje"></textarea>
+              <textarea name="mensaje" id="mensaje" cols="40" rows="10" placeholder="Mensaje" required></textarea>
               <input type="submit" value="Solicitar">
           </form>
         </div>
