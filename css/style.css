@@ -171,7 +171,14 @@ nav ul li a:hover{
 	text-align: center;
 	margin: 0 auto;
 	text-decoration: none;
-	background: #6BB300;
+	background: #62bc33;
+	background: -moz-linear-gradient(left, #62bc33 0%, #8bd331 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#62bc33), color-stop(100%,#8bd331));
+	background: -webkit-linear-gradient(left, #62bc33 0%,#8bd331 100%);
+	background: -o-linear-gradient(left, #62bc33 0%,#8bd331 100%);
+	background: -ms-linear-gradient(left, #62bc33 0%,#8bd331 100%);
+	background: linear-gradient(to right, #62bc33 0%,#8bd331 100%);
+	border:none;
 	padding: 10px 50px;
 	color: #ffffff;
 	border-radius: 5px;
